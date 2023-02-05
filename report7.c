@@ -46,6 +46,7 @@ int main(){
     int size2 = sizeof scores2 / sizeof scores2[0];
 
     printf("scores = ");
+    scoresList(scores2, size2);
 
     printf("\nresults = ");
     resultList(scores2, size2);
