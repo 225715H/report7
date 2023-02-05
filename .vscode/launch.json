@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "name": "C/C++: clang アクティブ ファイルのビルドとデバッグ",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb",
+      "preLaunchTask": "C/C++: clang アクティブなファイルのビルド"
+    },
+    {
+      "name": "C/C++: gcc アクティブ ファイルのビルドとデバッグ",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb",
+      "preLaunchTask": "C/C++: gcc アクティブなファイルのビルド"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/higamotoki/prog2/report7",
+      "program": "/Users/higamotoki/prog2/report7/build/Debug/outDebug"
+    }
+  ],
+  "version": "2.0.0"
+}
